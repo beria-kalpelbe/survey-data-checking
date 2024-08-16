@@ -5,6 +5,7 @@ from dash.dependencies import Input, Output
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define the app layout
 app.layout = html.Div([
