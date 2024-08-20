@@ -3,9 +3,7 @@ import base64
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
-from PIL import Image
-import numpy as np
-from functions import extract_metadata_set_of_images, find_all_similar_images, get_image_paths
+from functions import extract_metadata_set_of_images, find_all_similar_images
 import tempfile
 import dash_table
 
