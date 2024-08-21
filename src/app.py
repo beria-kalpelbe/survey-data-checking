@@ -117,4 +117,4 @@ def get_image_metadata(image_path):
         return html.P(f"Could not retrieve metadata for {image_path}")
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
